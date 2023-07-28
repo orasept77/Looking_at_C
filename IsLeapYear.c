@@ -1,4 +1,4 @@
-#find day on a particular date
+#-find day on a particular date
 
 #include<stdio.h>
 
