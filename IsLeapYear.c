@@ -1,3 +1,5 @@
+#find day on a particular date
+
 #include<stdio.h>
 
 int isLeapYear(int year){
