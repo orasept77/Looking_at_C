@@ -17,7 +17,7 @@ void main()
         }
     }
 
-    printf("\nThe matrix is : \n");
+    printf("\n The matrix is : \n");
     for (i = 0; i < 2; i++)
     {
         printf("\n");
@@ -29,7 +29,7 @@ void main()
 
     determinant = a[0][0] * a[1][1] - a[1][0] * a[0][1];
 
-    printf("\nDeterminant of 2X2 matrix: %ld", determinant);
+    printf("\n Determinant of 2X2 matrix: %ld", determinant);
 
     getch();
 }
