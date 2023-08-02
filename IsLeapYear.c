@@ -25,9 +25,9 @@ int main() {
     char  week[7][10]={"sunday",
                    "monday",
                    "tuesday",
-                   "wednesday"
-                   ,"thursday"
-                   ,"friday",
+                   "wednesday",
+                   "thursday",
+                   "friday",
                    "saturday"};
      printf("Enter a date between  1600 to 3000\n");
       scanf("%d%d%d",&day,&month,&year);
