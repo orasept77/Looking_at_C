@@ -1,31 +1,41 @@
-#-allocate memory using malloc() and free memory using free().
-
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
-    int num_elements, i, *array, sum = 0;
-    printf("Enter the total number of elements: ");
-    scanf("%d", &num_elements);
+#define SUCCESS 0
+#define FAILURE 1
 
-    array = (int*)malloc(num_elements * sizeof(int));
+void inputArray(int *array, size_t num_elements) {
+    printf("Enter elements of the array:\n");
+    for (size_t i = 0; i < num_elements; ++i) {
+        scanf("%d", &array[i]);
+    }
+}
+
+void printArray(const int *array, size_t num_elements) {
+    printf("Elements are:\n");
+    for (size_t i = 0; i < num_elements; ++i) {
+        printf("%d\n", array[i]);
+    }
+}
+
+int main() {
+    size_t num_elements;
+    printf("Enter the total number of elements: ");
+    if (scanf("%zu", &num_elements) != 1 || num_elements == 0) {
+        printf("Invalid input.\n");
+        return FAILURE;
+    }
+
+    int *array = (int *)malloc(num_elements * sizeof(int));
 
     if (array == NULL) {
         printf("Error! Memory allocation failed.");
-        return 0;
+        return FAILURE;
     }
 
-    printf("Enter elements of the array:\n");
-    for (i = 0; i < num_elements; ++i) {
-        scanf("%d", &array[i]);
-        sum += array[i];
-    }
-
-    printf("Elements are:\n");
-    for (i = 0; i < num_elements; i++) {
-        printf("%d\n", array[i]);
-    }
+    inputArray(array, num_elements);
+    printArray(array, num_elements);
 
     free(array);
-    return 0;
+    return SUCCESS;
 }
