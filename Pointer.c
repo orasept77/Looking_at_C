@@ -18,10 +18,10 @@ int main() {
 
     char str[100], substr[100];
 
-    printf("Enter the source string: ");
+    printf("Enter the source string:  ");
     fgets(str, sizeof(str), stdin);
 
-    printf("Enter string to concatenate: ");
+    printf("Enter string to concatenate:  ");
     fgets(substr, sizeof(substr), stdin);
 
     concatenator(str, substr);
