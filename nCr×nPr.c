@@ -11,7 +11,7 @@ int main()
     int n, r;
     long long ncr, npr;
 
-    printf("Enter the value of n and r: ");
+    printf("Enter the value of n and r:  ");
     scanf("%d %d", &n, &r);
 
     ncr = calculateNCR(n, r);
