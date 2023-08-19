@@ -3,16 +3,16 @@
 Это репозиторий будет посвящён интерпритированию Си кода на русский-псевдокод 
 В реализации на сей момент 10 программ:
 
-1. - [https://github.com/orasept77/Looking_at_C/blob/main/2x2matrix.c](2x2matrix.c) - done
-2. - [https://github.com/orasept77/Looking_at_C/blob/main/Add_'n'.c](Add_'n'.c) - done
-3. - [https://github.com/orasept77/Looking_at_C/blob/main/Add_'n'_v2.c](Add_'n'_v2.c) - done
-4. - [https://github.com/orasept77/Looking_at_C/blob/main/Almum.c](Almum.c) - done
-5. - [https://github.com/orasept77/Looking_at_C/blob/main/CLlist.c](CLlist.c) - soon
-6. - [https://github.com/orasept77/Looking_at_C/blob/main/IsLeapYear.c](IsLeapYear.c) - soon
-7. - [https://github.com/orasept77/Looking_at_C/blob/main/N_to_prime_numbers.c](N_to_prime_numbers.c) - soon
-8. - [https://github.com/orasept77/Looking_at_C/blob/main/Pointer.c](Pointer.c) - soon
-9. - [https://github.com/orasept77/Looking_at_C/blob/main/Scanf.c](Scanf.c) - soon
-10. - [https://github.com/orasept77/Looking_at_C/blob/main/nCr%C3%97nPr.c](nCrxnPr.c) soon 
+1. - [2x2matrix.c](https://github.com/orasept77/Looking_at_C/blob/main/2x2matrix.c) - done
+2. - [Add_'n'.c](https://github.com/orasept77/Looking_at_C/blob/main/Add_'n'.c) - done
+3. - [Add_'n'_v2.c](https://github.com/orasept77/Looking_at_C/blob/main/Add_'n'_v2.c) - done
+4. - [Almum.c](https://github.com/orasept77/Looking_at_C/blob/main/Almum.c) - done
+5. - [CLlist.c](https://github.com/orasept77/Looking_at_C/blob/main/CLlist.c) - soon
+6. - [IsLeapYear.c](https://github.com/orasept77/Looking_at_C/blob/main/IsLeapYear.c) - soon
+7. - [N_to_prime_numbers.c](https://github.com/orasept77/Looking_at_C/blob/main/N_to_prime_numbers.c) - soon
+8. - [Pointer.c](https://github.com/orasept77/Looking_at_C/blob/main/Pointer.c) - soon
+9. - [Scanf.c](https://github.com/orasept77/Looking_at_C/blob/main/Scanf.c) - soon
+10. - [nCrxnPr.c](https://github.com/orasept77/Looking_at_C/blob/main/nCr%C3%97nPr.c) soon 
 
 Программа 1 - [https://github.com/orasept77/Looking_at_C/blob/main/2x2matrix.c](2x2matrix.c)
 
