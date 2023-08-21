@@ -1,7 +1,7 @@
 # Псевдокод на С
 
 Это репозиторий будет посвящён интерпритированию Си кода на русский-псевдокод 
-В реализации на сей момент 10 программ:
+В реализации на сей момент 10 программ: 
 
 1. - [2x2matrix.c](https://github.com/orasept77/Looking_at_C/blob/main/2x2matrix.c) - done
 2. - [Add_'n'.c](https://github.com/orasept77/Looking_at_C/blob/main/Add_'n'.c) - done
