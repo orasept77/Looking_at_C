@@ -14,7 +14,7 @@
 9. - [Scanf.c](https://github.com/orasept77/Looking_at_C/blob/main/Scanf.c) - soon
 10. - [nCrxnPr.c](https://github.com/orasept77/Looking_at_C/blob/main/nCr%C3%97nPr.c) soon 
 
-Программа 1 - [https://github.com/orasept77/Looking_at_C/blob/main/2x2matrix.c](2x2matrix.c)
+Программа 1 - [https://github.com/orasept77/Looking_at_C/blob/main/2x2matrix.c](2x2matrix.c) 
 
 Главная идея программы заключается в вычислении определителя 2x2 матрицы. Определитель матрицы — это числовое значение, которое можно вычислить для квадратных матриц определённого порядка. В данном случае, программа работает с матрицей размером 2x2.
 
